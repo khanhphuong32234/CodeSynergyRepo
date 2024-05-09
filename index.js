@@ -1,4 +1,6 @@
-function maxDepth(root) {
-  if (!root) return 0;
-  return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
 }
+
+console.log(isPalindrome("racecar")); // true
