@@ -1,3 +1,3 @@
-// Setup the client
-const aptosConfig = new AptosConfig({ network: APTOS_NETWORK });
-const aptos = new Aptos(aptosConfig);
+const colors = ["red", "green", "blue"];
+const randomColor = colors[Math.floor(Math.random() * colors.length)];
+console.log(randomColor);
